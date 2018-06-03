@@ -7,9 +7,9 @@ A very first example of AlphaStrategy back-test:
     
 """
 from __future__ import print_function, unicode_literals, division, absolute_import
-
-from jaqs.data import RemoteDataService, DataView
-
+#RemoteDataService：远程数据服务类，用于通过互联网获取数据；DataView：
+from jaqs.data import RemoteDataService, DataView  
+#util:Get the n’th day in next period from current day.
 import jaqs.util as jutil
 
 from jaqs.trade import model
